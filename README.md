@@ -1,7 +1,7 @@
 # docker-angular-cli
 Docker angular cli stable
 
-- docker run -it -p 4200:4200 -p 4205:4205 -v $(pwd):/usr/src -w /usr/src hoatle/teracy-angular-cli /bin/bash
+- docker run -it -p 4200:4200 -p 4205:4205 -v $(pwd):/usr/src -w /usr/src utsocials/docker-angular-cli /bin/bash
 - ng --version
 - ng new my-project --skip-install
 - cd new-project
