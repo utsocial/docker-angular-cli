@@ -1,0 +1,7 @@
+poc:
+  build: .
+  ports:
+    - '4000:4000'
+    - '4205:4205'
+  volumes:
+    - .:/home/app    
